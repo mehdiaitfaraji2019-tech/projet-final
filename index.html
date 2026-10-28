@@ -1,11 +1,133 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ma Bibliothèque</title>
 </head>
+
 <body>
-    
+
+    <header>
+        <h1>Bienvenue dans notre bibliothèque</h1>
+        <p>Découvrez le plaisir de la lecture !</p>
+    </header>
+
+    <hr>
+
+    <nav>
+        <a href="#accueil">Accueil</a> |
+        <a href="#livres">Nos livres</a> |
+        <a href="#apropos">À propos</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <hr>
+
+    <section id="accueil">
+        <h2>Accueil</h2>
+        <p>
+            Notre bibliothèque propose une grande
+            collection de livres pour tous les âges.
+            Venez découvrir de nouvelles histoires,
+            apprendre et développer vos connaissances.
+        </p>
+
+        <img src="bibliotheque.jpg" alt="Image de notre bibliothèque" width="300">
+    </section>
+
+    <hr>
+
+    <section id="livres">
+        <h2>Nos livres</h2>
+
+        <h3>1. Le Petit Prince</h3>
+        <p>Auteur : Antoine de Saint-Exupéry</p>
+        <p>Catégorie : Roman</p>
+        <p>Prix : 50 DH</p>
+
+        <h3>2. Les Misérables</h3>
+        <p>Auteur : Victor Hugo</p>
+        <p>Catégorie : Littérature</p>
+        <p>Prix : 80 DH</p>
+
+        <h3>3. L'informatique facile</h3>
+        <p>Auteur : Auteur fictif</p>
+        <p>Catégorie : Informatique</p>
+        <p>Prix : 100 DH</p>
+
+        <h3>4. Le monde des sciences</h3>
+        <p>Auteur : Auteur fictif</p>
+        <p>Catégorie : Sciences</p>
+        <p>Prix : 70 DH</p>
+    </section>
+
+    <hr>
+
+    <section id="apropos">
+        <h2>À propos de nous</h2>
+
+        <p>
+            Notre bibliothèque est un espace de lecture,
+            d'apprentissage et de découverte.
+        </p>
+
+        <p>
+            Nous proposons des romans, des livres scolaires,
+            des dictionnaires et des livres spécialisés
+            en informatique et en sciences.
+        </p>
+
+        <h3>Nos services</h3>
+
+        <ul>
+            <li>Vente de livres</li>
+            <li>Vente de stylos et de cahiers</li>
+            <li>Conseils de lecture</li>
+            <li>Livres pour étudiants</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+
+        <form action="#" method="post">
+
+            <label for="nom">Votre nom :</label><br>
+            <input type="text" id="nom" name="nom" required>
+            <br><br>
+
+            <label for="email">Votre e-mail :</label><br>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <label for="sujet">Sujet :</label><br>
+            <input type="text" id="sujet" name="sujet">
+            <br><br>
+
+            <label for="message">Votre message :</label><br>
+            <textarea id="message" name="message" rows="5" cols="30"></textarea>
+            <br><br>
+
+            <input type="submit" value="Envoyer">
+
+            <input type="reset" value="Effacer">
+
+        </form>
+    </section>
+
+    <hr>
+
+    <footer>
+        <p>Adresse : Marrakech, Maroc</p>
+        <p>Téléphone : 0600000000</p>
+        <p>E-mail : contact@bibliotheque.com</p>
+        <p>&copy; 2026 Ma Bibliothèque</p>
+        <p>Tous droits réservés.</p>
+    </footer>
+
 </body>
+
 </html>
